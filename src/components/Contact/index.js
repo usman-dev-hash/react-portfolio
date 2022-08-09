@@ -80,16 +80,14 @@ const Contact = () => {
             <div className={'info-map'}>
                 Usman Munir,
                 <br />
-                Pakistan,
-                <br />
-                DHA, 54000 <br />
-                Lahore <br/>
+                Glowfish Labs, DHA Phase 4,<br />
+                Lahore, Pakistan <br/>
                 <span>usmandev17@gmail.com</span>
             </div>
             <div className={'map-wrap'}>
-                <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+                <MapContainer center={[31.465423, 74.377202]} zoom={13}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                    <Marker position={[44.96366, 19.61045]}>
+                    <Marker position={[31.465423, 74.377202]}>
                         <Popup>Usman lives here, come over for a cup of coffee :)</Popup>
                     </Marker>
                 </MapContainer>

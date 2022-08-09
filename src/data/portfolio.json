@@ -1,0 +1,16 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/movie-app.png",
+      "title": "Movie APP",
+      "description": "Netflix Movie App Clone",
+      "url": "https://netflix-movies-app.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/1/movie-app.png",
+      "title": "Movie APP",
+      "description": "Netflix Movie App Clone",
+      "url": "https://netflix-movies-app.netlify.app/"
+    }
+  ]
+}

@@ -11,7 +11,7 @@ const Logo = () => {
     const outlineLogoRef = useRef();
     const solidLogoRef = useRef();
 
-    useEffect(() => {
+    /*useEffect(() => {
         gsap.registerPlugin(DrawSVGPlugin)
 
         gsap.timeline().to(bgRef.current, {
@@ -34,7 +34,7 @@ const Logo = () => {
                 duration: 4,
             }
         )
-    }, [])
+    }, [])*/
 
     return (
         <div className={'logo-container'} ref={bgRef}>
